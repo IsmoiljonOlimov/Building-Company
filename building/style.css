@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Mulish:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Titillium+Web:wght@200;300;400;600;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+}
+.container {
+    max-width: 1250;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+}
+.main {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/main.jpeg);
+    background-repeat: no-repeat;      
+    background-position: bottom center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.40);
+    background-blend-mode: darken;
+}
+.text-shape h1{
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: "Courier New", monospace;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+.text-shape h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-size: 4.5rem;
+    line-height: 1.1;
+}
+.text-shape p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+.text-shape a {
+    text-transform: uppercase;
+    font-family: "Courier New", monospace;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.6;
+    letter-spacing: 3px;
+    color: #ffce3e;
+    text-decoration: none;
+    margin-left: 230px;    
+}
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 282px;
+    color: #fff;
+    background-color: rgb(0, 0, 0);
+}
+.projects {
+    margin-left: 45px;
+    margin-right: 45px;
+}
+.projects-heading{
+    font-size: 2.05rem;
+    line-height: 1.1;
+}
+.projects-text {
+    font-size: 1rem;
+    line-height: 1.6;
+    width: 355px;
+    text-align: left;
+    font-style: italic;
+}
+.projects p {
+    margin-top: 20px;
+}
+.modeling {
+    position: relative;
+    top: -50px;
+}
+.information-black {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    width: 400px;
+    height: 157px;
+    background-color: #333333;
+}
+.information-yellow {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    width: 400px;
+    height: 157px;
+    background-color: #ffce3e;
+}
+.information-yellow p {
+    color: black;
+}
+.information-yellow-text {
+    font-weight: 700;
+    font-size: 9.125rem;
+    color: #ffce3e;
+}
+.about-us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 570px;
+    color: #000;
+}
+.about-us-paragraph {
+    margin-bottom: 20px;
+    font-family: "Courier New", sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+.about-us-text {
+    width: 530px;
+    
+}
+.about-us-text h1 {
+    margin: 20px 0;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 2.25rem;
+    line-height: 1.1; 
+}
+.about-us-second-text {
+    margin-bottom: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    
+}
+.yellow-link {
+    margin-top: 10px;
+    padding: 10px 30px;
+    font-family: "Courier New", monospace;
+    width: 173px;
+    height: 45px;
+    text-decoration: none;
+    letter-spacing: 3px;
+    color: #000;
+    background-color: #ffce3e;    
+    font-style: initial;
+    font-weight: bold;
+}
+.plans {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 366px;
+    color: #000;
+    background-color: #ffce3e;
+}
+.plans-left {    
+    padding: 43px 150px; 
+    max-height: 100%;
+    min-height: 366px;
+    text-align: center;    
+}
+.plans-heading {    
+    font-size: 30px;
+    font-weight: 400;
+}
+.plans-heading-bold {    
+    font-size: 30px;
+    font-weight: 700;
+}
+.plans-text {
+    margin-top: 10px;
+    width: 328px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-style: italic;
+}
+.plans-middle {
+    padding: 43px 150px; 
+    max-height: 100%;
+    min-height: 366px;
+    text-align: center;
+    background-color: #fee856;
+}
+.plans-right {
+    padding: 43px 150px; 
+    max-height: 100%;
+    min-height: 366px;
+    text-align: center;
+}
+.recent-projects {    
+    padding: 5px;
+    min-height: 680px;
+    background-color: #000;
+}
+.recent-projects-img {
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;      
+    width: 375px;
+    height: 319px;
+}
+.recent-projects-text {
+    text-align: center;
+}
+.recent-projects-text h1{
+    text-align: center;
+    font-family: "Courier New", monospace;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    margin: 30px 0;
+}
+.recent-projects-text h2 {
+    text-align: center;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 1.1;
+    margin-top: 20px;
+    margin-bottom: 20px;       
+}
+.recent-projects-text p { 
+    margin: 30px auto;
+    text-align: center;   
+    width: 900px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;   
+    font-style: italic;    
+}
+.recent-projects-yellow-link {
+    text-align: center;
+    margin: 40px 0;
+}
+.certifications {    
+    width: 100%;    
+    padding-top: 80px;    
+    background-image: url(img/black.png);
+    background-repeat: no-repeat;      
+    background-position: bottom center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.87);
+    background-blend-mode: darken;
+}
+.certifications-list {
+    display: flex;
+    justify-content: center;
+    margin-right: auto;     
+    margin-left: auto;
+    flex-wrap: wrap;
+    width: 1280px; 
+    height: 600px;        
+}
+.certifications-list-item {
+    text-align: center;
+    width: 380px;
+    padding: 30px;
+}
+.certifications-list-item img {    
+    width: 104px;
+    height: 104px;
+}
+.certifications-list-item h3{
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.875rem;
+    font-weight: 700;    
+}
+.certifications-list-item p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.blockquote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;  
+    height: 600px;
+    background-image: url(img/usta.jpeg);
+    background-repeat: no-repeat;      
+    background-position: bottom center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.40);
+    background-blend-mode: darken;
+}
+.file {
+    text-align: center;
+    width: 104px;
+    height: 104px;
+}
+.ideas {
+    text-align: center;
+    width: 800px;
+    font-style: italic;
+    line-height: 1.4;
+    margin: 25px 20px 0;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+.blockquote p {
+    text-align: center;
+    font-family: "Courier New", monospace;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    margin: 30px 0;
+}
+.partners {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;    
+    color: #000;
+    background-color: #f2f2f2;
+    height: 516px;
+}
+.partners-text {
+    text-align: left;
+    
+}
+.partners-text h1 {
+    font-family: "Courier New", monospace;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    letter-spacing: 3px;
+}
+.partners-text h2 {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 1.1;
+    margin-top: 20px;
+    margin-bottom: 20px;    
+}
+.partners-yellow-link {    text-align: left;
+    
+}
+.partners-text p {
+    text-align: left;
+    width: 530px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+.partners-img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+}
+.partners-img img {
+    margin: 15px 70px;
+    width: 143px;
+}
+.footer-img {
+    width: 100px;
+    height: 100px;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 366px;
+    color: #000;
+    background-color: #ffce3e;
+}
+.footer-left {    
+    padding: 43px 150px; 
+    max-height: 100%;
+    min-height: 366px;
+    text-align: center;    
+}
+.footer-text {
+    text-align: center;
+    margin-top: 10px;
+    width: 328px;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 16px;    
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+.footer-middle {
+    padding: 43px 150px; 
+    max-height: 100%;
+    min-height: 366px;
+    text-align: center;
+    background-color: #fee856;
+}
+.footer-right {
+    padding: 43px 150px; 
+    max-height: 100%;
+    min-height: 366px;
+    text-align: center;
+}
+.finish {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 70px;
+    background-color: #333333;
+}
+.finish p {
+    font-family: "Courier New", serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
